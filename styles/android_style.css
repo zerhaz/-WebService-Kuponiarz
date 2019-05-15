@@ -1,0 +1,119 @@
+body
+{
+	background-image: url("../android-img/bg1.png");
+	font-family: 'Lato', sans-serif;
+}
+
+.accordion {
+    background-color: #ec4a4e;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 12px;
+    transition: 0.9s;
+	border-radius: 0px 0px 8px 8px;
+
+}
+
+.accordion:focus{
+	outline-style: none;
+}
+
+.active {
+    background-color: #db393d;
+	border-radius: 0px;
+	transition: 0.05s;
+}
+
+.accordion:after {
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;	
+}
+
+.active:after {
+
+}
+
+.panel {
+    padding: 0px;
+	color: #fff;
+    background-color: #ec4a4e;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+	border-radius: 0px 0px 8px 8px;
+}
+
+.panel p {
+	margin: 6px;
+}
+
+#android-container
+{
+	margin: 8px;
+	text-align: center;
+	width: 100%;
+}
+
+.element-row
+{
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.single-element
+{
+	background-color: #f0f0f0;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+	width: 90%;
+	padding: 10px 0px 0px 0px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+}
+
+.single-element h4
+{
+	border-radius: 30px;
+	margin:  10px 20px 20px 20px;
+	padding: 5px 2px;
+	color: #323232;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.android-img
+{
+	width: 80%;
+}
+
+
+
+img
+{
+    display: block;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+	border: 2px solid #b20000;
+	margin: 5px auto 10px auto;
+	border-radius: 12px;
+}	
+	
+	
+	
+	
+	
+	
